@@ -1,3 +1,54 @@
 body {
   background: blanchedalmond;
 }
+.container{
+ 
+  border: 2px solid rgb(146, 28, 28);
+ 
+}
+
+.a{
+  
+  border: 1px solid gray;
+  max-height: 200px;
+  height: 20vh;
+  width:100%;
+}
+section{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+ .b{
+  min-width: 79%;
+  border: 1px solid green;
+  max-height: 800px;
+  height: 80vh;
+ }
+ .c
+ {
+  min-width: 19%;
+  border: 1px solid rebeccapurple;
+  max-height: 800px;
+  height: 80vh;
+ }
+ @media screen and (max-width: 600px){
+      section{
+        flex-wrap: wrap;
+        box-sizing: 100%;
+      }
+      
+ .b{
+  min-width: 100%;
+  border: 1px solid green;
+  max-height: 800px;
+  height: 80vh;
+ }
+ .c
+ {
+  min-width: 100%;
+  border: 1px solid rgb(45, 16, 151);
+  max-height: 200px;
+  height: 20vh;
+ }
+ }
